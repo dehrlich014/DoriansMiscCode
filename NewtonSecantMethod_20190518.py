@@ -1,7 +1,7 @@
 """This document builds the Newton and Secant methods and applies each
 to the function (givein in Ascher & Greif) f(x) = 2*cosh(x/4) - x, which has a root.
 Then, a graph is made that shows where Newton and Secant each come in approximating
-the root ."""
+the root."""
 
 import numpy as np
 import matplotlib.pyplot as plt
