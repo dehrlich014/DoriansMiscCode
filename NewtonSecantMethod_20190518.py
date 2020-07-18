@@ -18,6 +18,7 @@ def NewtonsMethod(f,fprime,x0):
     
     #Newton's Method:
     #x_next = x_curr - (f(x_curr))/(fprime(x_curr)).
+    #fprime must be known!
     
     while curr > atol:
         xnew = x[k] - (f(x[k])/fprime(x[k]))
