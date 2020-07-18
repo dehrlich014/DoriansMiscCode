@@ -71,10 +71,11 @@ zNewton = np.zeros(len(xNewton))
 zSecant = np.zeros(len(xSecant))
 print(xNewton)
 print(xSecant)
-#plot the line y = 0
+#plot the line y = 0.
 plt.plot(ab,z,'r--')
-#plot the graph of y = f(x)
+#plot the graph of y = f(x).
 plt.plot(ab,f(ab))
 plt.plot(xNewton,zNewton,'bs')
 plt.plot(xSecant,zSecant,'gd')
+#Observe that Newton and Secant generate similar guesses for this function f.
 plt.show()
